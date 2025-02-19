@@ -1,4 +1,3 @@
-4. Convert Fahrenheit to Celsius
-7. Find Intersection of Two Arrays
-8. Flatten a Nested Array
-10. Check if a Number is a Power of Two
+Find Intersection of Two Arrays
+Flatten a Nested Array
+Check if a Number is a Power of Two
