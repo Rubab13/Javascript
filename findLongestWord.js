@@ -1,30 +1,18 @@
 // Find the Longest Word in a Sentence
 
-
-// this code is wrong
-
-function findLongestWord (string) {
-  // I am supposing here that all the words are of different lengths
-  let list = string.split(" "); // This list contains all the words in the string
-  let lengthArray = [];
-
-  list.map(
-    word => {
-      lengthArray.push(word.length);
-    }
-  );
-  console.log(lengthArray);
-  
-  // filter out the largest length
-  let max = lengthArray[0];
+function findLongestWord(string) {
+  let list = string.split(" ");
+  let max = 0;
   let index = 0;
 
-  for (let i=0; i < lengthArray.length; i++) {
-    if (max < lengthArray[i]) {
-      max = lengthArray[i];
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].length > max) {
+      max = list[i].length;
+      index = i;  // Update the index of the longest word
     }
-  }  
-  return list[index];
+  }
+
+  return list[index]; // Return the longest word
 }
 
-console.log("The longest word in the given string is", findLongestWord("The lazjhghghgsfy foxsd"));
+console.log("The longest word in the given string is:", findLongestWord("The lazj foxsd"));
