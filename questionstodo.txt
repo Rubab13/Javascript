@@ -1,6 +1,4 @@
-2. Check if Two Strings are Anagrams
 4. Convert Fahrenheit to Celsius
 7. Find Intersection of Two Arrays
 8. Flatten a Nested Array
-9. Find the Longest Word in a Sentence
 10. Check if a Number is a Power of Two
