@@ -4,4 +4,3 @@ Check if a Number is a Power of Two
 
 A function that returns a reverse copy of an array (the original does not change).
 A function that concatenates (joins) an array without using the join() method.
-A function that adds a dash ("-") after each letter of a string.
